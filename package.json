@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "webpack-dev-server --colors --json --progress --inline --hot",
     "dumpdev": "rm -rf www/* && webpack",
-    "dumpprod": "rm -rf www/* && webpack --release --config webpack.config.prod.js",
+    "dumpprod": "rm -rf www/* && webpack --release --config webpack.config.production.js",
     "runAndroid": "npm run dumpdev && ionic run android",
     "runIosEmulator": "npm run dumpdev && ionic run ios",
     "runIosDevice": "npm run dumpdev && ionic run ios --device",
