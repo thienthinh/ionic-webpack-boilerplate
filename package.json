@@ -3,7 +3,7 @@
   "version": "1.1.1",
   "description": "ionic-webpack-boilerplate: An Ionic project",
   "scripts": {
-    "dev": "webpack-dev-server --colors --json --progress",
+    "dev": "webpack-dev-server --colors --json --progress --inline --hot",
     "dumpdev": "rm -rf www/* && webpack",
     "dumpprod": "rm -rf www/* && webpack --release --config webpack.config.prod.js",
     "runAndroid": "npm run dumpdev && ionic run android",
