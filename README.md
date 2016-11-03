@@ -22,14 +22,14 @@ $ npm install
 
 ```
 # Web dev with live reload
-npm run dev
+# Open browser on http://localhost:8080
+$ npm run dev
 
 # Android
-npm run runAndroid
+$ npm run runAndroid
 
 # iOS
-npm run runIosEmulator
-npm run runIosDevice
+$ npm run runIos
 ```
 
 ### Folder Structure
