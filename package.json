@@ -6,6 +6,7 @@
     "dev": "webpack-dev-server --colors --json --progress --inline --hot",
     "builddev": "rm -rf www/* && webpack",
     "buildprod": "rm -rf www/* && webpack --release --config webpack.config.production.js",
+    "serveLab": "webpack --watch & ionic serve --lab",
     "runAndroid": "npm run builddev && ionic run android",
     "runIos": "npm run builddev && ionic run ios"
   },

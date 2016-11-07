@@ -20,15 +20,25 @@ $ npm install
 
 ### Run
 
+Web dev with live reload
 ```
-# Web dev with live reload
 # Open browser on http://localhost:8080
 $ npm run dev
+```
 
-# Android
+Serve on ionic-lab with live reload and watch from `app` to `www`
+```
+# Open browser on http://localhost:8100/ionic-lab
+$ npm run serveLab
+```
+
+Run on Android
+```
 $ npm run runAndroid
+```
 
-# iOS
+Run on iOS
+```
 $ npm run runIos
 ```
 

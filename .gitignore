@@ -6,3 +6,4 @@ platforms/
 plugins/
 npm-debug.log
 .DS_Store
+www/

@@ -1,4 +1,5 @@
 export default function($ionicPlatform) {
+  'ngInject';
   $ionicPlatform.ready(function() {
     console.log('ionicPlatform.ready')
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
